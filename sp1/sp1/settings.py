@@ -69,6 +69,11 @@ ROBOTSTXT_OBEY = False
 #    'sp1.pipelines.Sp1Pipeline': 300,
 #}
 
+ITEM_PIPELINES = {
+   'sp1.pipelines.JsonPipeline': 100,
+   'sp1.pipelines.FilePipeline': 300,
+}
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
