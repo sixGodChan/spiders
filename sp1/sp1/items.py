@@ -16,5 +16,4 @@ class Sp1Item(scrapy.Item):
 
 class JandanImgItem(scrapy.Item):
     name = scrapy.Field()
-    type = scrapy.Field()
     url = scrapy.Field()

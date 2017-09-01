@@ -65,14 +65,12 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'sp1.pipelines.Sp1Pipeline': 300,
-#}
-
 ITEM_PIPELINES = {
-   'sp1.pipelines.JsonPipeline': 100,
+   # 'sp1.pipelines.Sp1Pipeline': 300,
    'sp1.pipelines.FilePipeline': 300,
+   'sp1.pipelines.JsonPipeline': 300,
 }
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

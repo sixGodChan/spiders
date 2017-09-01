@@ -55,9 +55,7 @@ class JandanSpider(scrapy.Spider):
 
         page = Selector(response).xpath('//div[@class="comments"]/div[@class="cp-pagenavi"]/a[@href]/@href').extract()
         print(page[0])
-        'http://jandan.net/ooxx/page-297#comments'
 
-        # 规则
         yield Request(url=page[0], dont_filter=True, callback=self.parse)
 
     def parse2(self, response):
