@@ -92,3 +92,12 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+# # 默认去重
+# DUPEFILTER_CLASS = 'scrapy.dupefilter.RFPDupeFilter'
+# DUPEFILTER_DEBUG = False
+# JOBDIR = "保存范文记录的日志路径，如：/root/"  # 最终路径为 /root/requests.seen
+
+# 自定义去重
+# DUPEFILTER_CLASS = 'sp1.repeat.RepeatUrl'
