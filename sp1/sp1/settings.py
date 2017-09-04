@@ -47,9 +47,11 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
+# SPIDER_MIDDLEWARES = {
 #    'sp1.middlewares.Sp1SpiderMiddleware': 543,
-#}
+#    'sp1.middlewares.SpiderMiddleware': 543,
+#    'sp1.middlewares.DownMiddleware1': 543,
+# }
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
