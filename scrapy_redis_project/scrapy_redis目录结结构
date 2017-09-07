@@ -1,0 +1,16 @@
+
+# 源码
+from scrapy_redis.spiders import
+
+'''
+scrapy_redis/
+	|-connection.py  # 根据配置文件,连接redise
+	|-defaults.py  # 默认配置文件
+	|-dupefilter.py  # 去重规则
+	|-picklecompat.py  # 将对象经过序列化后的形式恢复到原有的对象
+	|-pipelines.py  # 持久化
+	|-queue.py  # 通过列表完成队列（堆、栈）
+	|-scheduler.py  # 调度器 通过调用队列，列表、集合取值，处理
+	|-spiders.py  # 爬虫
+	|-utils.py  # 字节转字符串
+'''
