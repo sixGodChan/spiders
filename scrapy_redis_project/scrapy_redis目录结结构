@@ -1,6 +1,6 @@
 
 # 源码
-from scrapy_redis.spiders import
+from scrapy_redis.spiders import RedisSpider
 
 '''
 scrapy_redis/
